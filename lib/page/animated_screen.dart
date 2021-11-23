@@ -7,10 +7,10 @@ class AnimatedScreen extends StatefulWidget {
 
 class _AnimatedScreenState extends State<AnimatedScreen>
     with TickerProviderStateMixin {
-  Animation _containerRadiusAnimation,
+  late Animation _containerRadiusAnimation,
       _containerSizeAnimation,
       _containerColorAnimation;
-  AnimationController _containerAnimationController;
+  late AnimationController _containerAnimationController;
 
   @override
   void initState() {

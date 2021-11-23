@@ -10,8 +10,8 @@ class ThirdPage extends StatefulWidget {
 }
 
 class _ThirdPageState extends State<ThirdPage> with TickerProviderStateMixin {
-  Animation _arrowAnimation, _heartAnimation;
-  AnimationController _arrowAnimationController, _heartAnimationController;
+  late Animation _arrowAnimation, _heartAnimation;
+  late AnimationController _arrowAnimationController, _heartAnimationController;
 
   @override
   void initState() {
@@ -73,7 +73,7 @@ class _ThirdPageState extends State<ThirdPage> with TickerProviderStateMixin {
   }
 
   bool _isEditingText = false;
-  TextEditingController _editingController;
+  late TextEditingController _editingController;
   String initialText = "Initial Text";
 
   @override

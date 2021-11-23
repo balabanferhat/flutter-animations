@@ -4,8 +4,8 @@ class CardWidget extends StatelessWidget {
   final int index;
 
   const CardWidget({
-    Key key,
-    @required this.index,
+    Key? key,
+    required this.index,
   }) : super(key: key);
 
   @override

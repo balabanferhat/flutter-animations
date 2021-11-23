@@ -1,5 +1,5 @@
 import 'package:animations/animations.dart';
-import 'package:animations_example/main.dart';
+import 'package:animations_example/main_old.dart';
 import 'package:animations_example/page/second_page.dart';
 import 'package:animations_example/page/third_screen.dart';
 import 'package:flutter/material.dart';
